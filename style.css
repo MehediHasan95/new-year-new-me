@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("/images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 0 8rem;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+header section {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header-section {
+  text-align: right;
+  width: 40%;
+}
+
+.header-section h1 {
+  font-size: 4rem;
+}
+
+.header-section button {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #02519f;
+  font-weight: bold;
+  padding: 10px 20px;
+}
