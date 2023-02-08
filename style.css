@@ -1,7 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
+
+/* Header CSS */
 
 header {
   background-image: url("/images/banner.png");
@@ -40,10 +43,75 @@ header section {
 }
 
 .header-section h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .header-section button {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #02519f;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+/* Main CSS  */
+
+.main-first-section {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-first-section img {
+  width: 30%;
+}
+
+.main-first-section div {
+  width: 30%;
+}
+
+.main-first-section div h1 {
+  font-size: 2rem;
+  padding-right: 180px;
+}
+
+.main-first-section div p {
+  padding-right: 50px;
+}
+
+.main-second-section {
+  padding: 5rem 8rem;
+}
+.main-second-section h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-second-section > div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-second-section div img {
+  width: 15%;
+}
+
+.main-third-section {
+  border-radius: 8px;
+  margin: 5rem 8rem;
+  padding: 3rem;
+  background-image: url("/images/gradient.png"), url("/images/watch.png");
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  color: white;
+}
+
+.main-third-section button {
   border: none;
   border-radius: 5px;
   background-color: white;
