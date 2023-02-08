@@ -119,3 +119,47 @@ header section {
   font-weight: bold;
   padding: 10px 20px;
 }
+
+/* Footer CSS */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333333;
+  color: white;
+  padding: 5rem 0;
+}
+
+.footer-first-section,
+.footer-second-section {
+  width: 30%;
+}
+
+.footer-first-section h1 {
+  font-size: 2rem;
+}
+
+.footer-first-section div img {
+  width: 8%;
+  margin-right: 10px;
+}
+
+.footer-second-section input {
+  display: block;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 15px 10px;
+  width: 80%;
+  background-color: #333333;
+  color: white;
+}
+
+.footer-second-section button {
+  border: none;
+  border-radius: 5px;
+  background-color: #02519f;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+}
