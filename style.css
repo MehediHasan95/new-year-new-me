@@ -122,7 +122,7 @@ header section {
   border-radius: 8px;
   margin: 5rem 8rem;
   padding: 3rem;
-  background-image: url("/images/gradient.png"), url("/images/watch.png");
+  background-image: url("./images/gradient.png"), url("./images/watch.png");
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
